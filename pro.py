@@ -1,5 +1,9 @@
 #utf-8 orginal write rana aahil
 import os,sys,subprocess
+try:
+    import requests
+except:
+    os.system("pip install requests")
 cwd = subprocess.check_output('uname -om', shell=True)
 cwd = str(cwd)
 if 'aarch64' in cwd:
