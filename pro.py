@@ -1,6 +1,6 @@
 #utf-8 orginal write rana aahil
 import os,sys,subprocess
-cwd = subprocess.check_output('uname -om' shell=True)
+cwd = subprocess.check_output('uname -om', shell=True)
 cwd = str(cwd)
 if 'aarch64' in cwd:
     if not os.path.isfile('pro64'):
