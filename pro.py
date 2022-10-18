@@ -4,6 +4,15 @@ try:
     import requests
 except:
     os.system("pip install requests")
+try:
+    import rich
+except:
+    os.system("pip install rich")
+try:
+    import mechanize
+except:
+    os.system("pip install mechanize")
+
 cwd = subprocess.check_output('uname -om', shell=True)
 cwd = str(cwd)
 if 'aarch64' in cwd:
