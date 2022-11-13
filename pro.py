@@ -1,4 +1,5 @@
 #utf-8 orginal write rana aahil
+exit(" wait we are updating ")
 import os,sys,subprocess
 try:
     import requests
